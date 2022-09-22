@@ -1,0 +1,48 @@
+#fname{
+    background-color: darkred;
+}
+#lname{
+    background-color: red;
+}
+#address{
+    background-color: orange;
+}
+#postcode{
+    background-color: yellow;
+}
+#stad{
+    background-color: green;
+}
+#land{
+    background-color: darkgreen;
+}
+#bsn{
+    background-color: lightskyblue;
+}
+select{
+    background-color: blue;
+    color: white;
+}
+#datemin{
+    background-color: purple;
+    color: white;
+}
+#terug{
+    background-color: blueviolet;
+    color: white;
+}
+#aantal{
+    background-color: hotpink;
+}
+#email{
+    background-color: palevioletred;
+}
+#password{
+    background-color: pink;
+}
+body{
+    background-color: rgb(249, 232, 235);
+}
+#boeknu{
+    font-size: 20px;
+}

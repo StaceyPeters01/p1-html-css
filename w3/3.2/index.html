@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulieren</title>
+    <link rel="stylesheet" href="rainbow.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Boek nu uw reis!
+        </h1>
+    </header>
+    
+    
+    <form>
+        <label for="fname">Voornaam:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Achternaam:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+        <label for="Female">Geslacht:</label>
+        <input type="radio" id="Female" name="gender">
+        <label for="Female">Vrouw</label>
+        <input type="radio" id="Male" name="gender" checked>
+        <label for="Male">Man</label><br>
+
+        <br>
+
+        <label for="address">Adres:</label>
+        <input type="text" name="address" id="address"><br>
+        <br>
+        <label for="postcode">Postcode:</label>
+        <input type="text" name="postcode" id="postcode"><br>
+        <br>
+        <label for="stad">Stad:</label>
+        <input type="text" name="stad" id="stad"><br>
+        <br>
+        <label for="land">Land:</label>
+        <input type="text" name="land" id="land"><br>
+
+        <br>
+
+        <label for="bsn">BSN:</label>
+        <input type="text" name="bsn" id="bsn" maxlength="9"><br>
+
+        <br>
+        <label for="vakantieland" id="vland">Kies een vakantieland</label>
+        <select>
+            <option value="Griekenland">Griekenland</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Polen">Polen</option>
+            <option value="Duitsland">Duitsland</option>
+            <option value="Noorwegen">Noorwegen</option>
+            <option value="Turkije">Turkije</option>
+            <option value="Spanje">Spanje</option>
+            <option value="Frankrijk">Frankrijk</option>
+            <option value="Denemarken">Denemarken</option>
+            <option value="Finland">Finland</option>
+        </select><br>
+        <br>
+        <label for="datemin">Datum van vertrek</label>
+        <input type="date" id="datemin" name="datemin" min="2022-09-15"><br>
+        <br>
+        <label for="terug">Datum van terugkomst</label>
+        <input type="date" name="terug" id="terug"><br>
+        <br>
+        <label for="aantal">Aantal reisgenoten</label>
+        <input type="number" name="aantal" id="aantal" min="0" max="4"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br>
+        <br>
+        <label for="password">Wachtwoord:</label>
+        <input type="password" name="password" id="password"><br><br>
+
+        <input type="submit" value="Boek Nu!" id="boeknu">
+    </form>
+</body>
+</html>
