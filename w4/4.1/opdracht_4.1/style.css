@@ -19,22 +19,8 @@ p{
 }
 #paragraaf1{
     font-weight: bold;
-    color: antiquewhite;
 }
 a{
     color: #8A2BE2;
     text-decoration: none;
-}
-header{
-    background-image: url("videogamecube.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 33vh;
-}
-article{
-    border: 5px solid teal;
-    border-radius: 10px;
-    border-left: 10px solid teal;
 }
