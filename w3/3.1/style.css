@@ -1,12 +1,14 @@
 html {
   font-size: 62.5%;
+  min-height: 100vh;
 }
 body {
   font-family: "Goldman", cursive;
+  min-height: 100vh;
   background-color: black;
-  background-image: url(./img/hacker.png);
+  background-image: url(./img/hackerbg.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 nav {
   display: flex;
@@ -18,6 +20,8 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: sticky;
+  top: 1px;
 }
 nav ul {
   display: flex;
@@ -35,17 +39,41 @@ nav a {
 nav img {
   width: 5vw;
 }
-.tekst{
-  font-size: 24px;  
-  font-family: Verdana;
-  list-style-type: circle;
-  
-  }
-
-.tekst2{
-  font-size: 24px;  
-  font-family: Verdana;
-  }
+title{
+  font-weight: bold;
+}
+section{
+  min-height: 100vh;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-family: "Goldman", cursive;
+  font-size: 70px;
+}
+#htmlcss{
+  float: right;
+  text-align: right;
+}
+#js{
+  float: left;
+}
+#php{
+  float: right;
+}
+#sql{
+  float: left;
+}
+p{
+  color: white;
+  font-family: "Goldman", cursive;
+}
+.rechts{
+  float: right;
+}
+.links{
+  float: left;
+}
 footer{
   font-family: "Goldman", cursive;
   background-color: #00a8c7;
@@ -54,11 +82,7 @@ footer{
   height: 10vh;
   text-align: center;
   font-size: 24px;
-}
-title{
-  font-weight: bold;
-}
-section{
-  width: 100vw;
-  height: 100vh;
+  position:relative;
+  top: 100vh;
+  padding-top: 50px;
 }
