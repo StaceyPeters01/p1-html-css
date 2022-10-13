@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(250, 76, 76);
+    display: flex;
+    height: 10vh;
+    font-size: 3vh;
+    color: white;
+}
+h1{
+    padding-left: 5vw;
+    padding-top: 2vh;
+}
+h2{
+    padding-left: 5vw;
+    padding-top: 2vh;
+}
+p{
+    padding-left: 5vw;
+    padding-top: 2vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.s1{
+    background-color: rgb(255, 213, 0);
+    height: 30vh;
+}
+.s2{
+    background-color: rgb(255, 119, 0);
+    height: 30vh;
+}
+.s3{
+    background-color: rgb(77, 173, 77);
+    height: 30vh;
+}
+
+    @media only screen and (max-width: 768px) {
+        nav{
+            display: flex;
+            justify-content: center;
+            background-color: rgb(255, 113, 137);
+            height: 11vh;
+        }
+        .s1{
+            background-color: rgb(255, 80, 80);
+            color: white;
+        }
+        .s2{
+            background-color: rgb(100, 100, 255);
+            color: white;
+        }
+        .s3{
+            background-color: rgb(75, 75, 255);
+            color: white;
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+        nav{
+            display: flex;
+            justify-content: flex-start;
+            background-color: rgb(91, 144, 224);
+            height: 11vh;
+        }
+        .s1{
+            background-color: rgb(145, 210, 208);
+            color: white;
+        }
+        .s2{
+            background-color: rgb(226, 99, 226);
+            color: white;
+        }
+        .s3{
+            background-color: rgb(64, 64, 116);
+            color: white;
+        }
+        h2{
+            display: flex;
+            justify-content: center;
+        }
+        p{
+            display: flex;
+        }
+    }
