@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    height: 10vh;
+    background-color: #131c27;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    min-height: 10vh;
+    position: sticky;
+    top: 0px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-right: 5vw;
+}
+li{
+    padding-left: 6vw;
+}
+h1{
+    font-family: 'Pattaya', sans-serif;
+    padding-left: 2vw;
+}
+#book{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/landing-page.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    color: white;
+    font-size: 30px;
+}
+#book-btn{
+    color: white;
+    background-color: #4c6e97;
+    margin: 40px;
+    padding: 15px 37px 15px 37px;
+    font-size: 15px;
+    text-decoration: none;
+}
+#locations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/new-york-page.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-color: rgb(176, 172, 172);
+    color: white;
+    font-size: 30px;
+    padding-left: 6vw;
+}
+#underlined{
+    border-bottom: white;
+    border-bottom-style: solid;
+    border-width: 5px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+#benefits{
+    width: 100vw;
+    height: 100vh;
+}
+#header-benefits{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
