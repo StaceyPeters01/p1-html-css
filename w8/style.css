@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 nav{
     height: 10vh;
@@ -85,4 +86,8 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    color: white;
+    background-color: #131c27;
+    height: 30vh;
+    font-size: 5vh;
 }
