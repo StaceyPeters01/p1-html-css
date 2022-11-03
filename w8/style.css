@@ -16,8 +16,7 @@ nav{
 }
 header{
     min-height: 10vh;
-    position: sticky;
-    top: 0px;
+    width: 100vw;
 }
 ul{
     display: flex;
@@ -39,7 +38,7 @@ h1{
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-image: url(/img/landing-page.jpg);
+    background-image: url(./img/landing-page.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     color: white;
@@ -49,9 +48,8 @@ h1{
     color: white;
     background-color: #4c6e97;
     margin: 40px;
-    padding: 15px 37px 15px 37px;
+    padding: 15px 45px 15px 45px;
     font-size: 15px;
-    text-decoration: none;
 }
 #locations{
     display: flex;
@@ -60,7 +58,7 @@ h1{
     align-items: flex-start;
     width: 100vw;
     height: 100vh;
-    background-image: url(/img/new-york-page.png);
+    background-image: url(./img/new-york-page.png);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     background-color: rgb(176, 172, 172);
@@ -90,4 +88,62 @@ a {
     background-color: #131c27;
     height: 30vh;
     font-size: 5vh;
+}
+.icons-crop{
+    width: 3vw;
+    height: 4vh;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    background-color: #131c27;
+    padding: 15px;
+}
+#route{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 16vw;
+}
+#bed{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 16vw;
+}
+#plane{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 16vw;
+}
+#icon-boxes{
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+    padding-top: 2vh;
+}
+.text-benefits{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 2vh;
+    height: 25vh;
+    font-weight: bold;
+}
+#contact{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(176, 172, 172);
+    background-image: url(./img/contact-mountain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contact-h2{
+    color: white;
+}
+#contact-box{
+    background: rgba(76, 175, 80, 0.3)
 }
