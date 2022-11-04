@@ -75,19 +75,27 @@
       </section>
 
       <section id="contact">
+        <div class="contact-box">
 
-        <div id="contact-box">
-          <h2 id="contact-h2">Contact Us</h2>
+          <header class="contact-h2">
+            <h2>Contact Us</h2>
+          </header>
 
-          <div>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br>
-          </div>
+          <form>
 
-          <div>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-          </div>
+            <div class="conact-name">
+              <label for="name">Name:</label>
+              <input type="text" name="name" required/>
+            </div>
+
+            <div class="contact-email">
+              <label for="email">Email:</label>
+              <input type="email" required name="email" />
+            </div>
+            <button type="submit">Submit</button>
+
+          </form>
+
         </div>
 
       </section>
