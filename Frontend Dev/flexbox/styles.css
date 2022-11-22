@@ -77,6 +77,10 @@ html,body,div{
     margin-bottom: 2px;
     height: 12vh;
 }
+.yellows{
+    display: flex;
+    flex-direction: column-reverse;
+}
 .yellow{
     text-align: center;
     background-color: yellow;
