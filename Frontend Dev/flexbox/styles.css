@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Barlow:400,500,700&display=swap);
+
+html,body,div{
+    margin: 0;
+    padding: 0;
+    font-family: barlow;
+}
+
+#wrapper{
+    width: 100%;
+    background-color: red;
+}
+
+.floatLeft{
+    float:left;
+}
+.floatRight{
+    float: right;
+}
+
+#top{
+    height: 90px;
+    color: white;
+    background-color: #005c40;
+}
+.snelmenu{
+    width: 350px;
+}
+
+#content{
+    min-height: 600px;
+    color: white;
+    background-color: #004630;
+    margin-left: 10vw;
+}
+
+.logo{
+    background-color: white;
+    min-height: 90px;
+    padding: 5px;
+    width: 10vw;
+}
+
+#top ul{
+    padding-top: 35px;
+}
+
+#top ul li{
+    display: inline;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.button{
+    background-color: #dbff4a;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight:bold;
+}
+
+.greens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.green{
+    margin: 2vh 0 2vh 0;
+    background-color: green;
+    width: 16vw;
+    height: 10vh;
+    text-align: center;
+}
+.blue{
+    text-align: center;
+    background-color: blue;
+    margin-bottom: 2px;
+    height: 12vh;
+}
+.yellow{
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    margin-bottom: 2px;
+    height: 11vh;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer{
+    background-color: purple;
+    height: 10vh;
+    width: 25vw;
+    text-align: center;
+}
